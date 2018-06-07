@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_global_variables.scss"
+	],
+	"names": [],
+	"mappings": "ACAA,OAAO,CAAC,gEAAI;ADEZ,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,ECHH,IAAI,EDGa,UAAU;CACtC;;AAED,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,wEAAwE;EAC1F,qBAAqB,EAAE,KAAK;EAC/B,mBAAmB,EAAE,QAAQ;EAC1B,eAAe,EAAE,KAAK;CAEzB;;AAED,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;CAChB"
+}
