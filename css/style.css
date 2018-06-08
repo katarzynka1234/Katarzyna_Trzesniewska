@@ -13,8 +13,37 @@ header {
   background-size: cover;
 }
 
-.about {
-  height: 200vh;
+header .navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header main .slogan {
+  color: #fff;
+  background: rgba(153, 134, 134, 0.8);
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  border: 7px solid #fff;
+  font-size: 20px;
+}
+
+header main .slogan h1 {
+  margin-top: 50px;
+  line-height: 1.2;
+}
+
+header main .slogan h1 span {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
