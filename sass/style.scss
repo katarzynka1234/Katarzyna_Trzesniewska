@@ -74,7 +74,6 @@ header {
 }
 
 .technology {
-    background-color: #273c75;
     text-align: center;
     h2 {
         @include heading-section;
@@ -85,8 +84,7 @@ header {
         justify-content: space-around;
         flex-wrap: wrap;
         padding-top: 30px;
-        padding-bottom: 30px;
-        
+        padding-bottom: 30px;        
         [class*="box"] {
             width: 150px;
             height: 150px;            
@@ -97,12 +95,16 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
+            &:hover {
+                transform: scale(1.2);
+            }
             > img {
-                width: 70px;
+                width: 100px;
                 height: auto; 
             }
         }
     }
+
     
 }
        

@@ -87,7 +87,6 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .technology {
-  background-color: #273c75;
   text-align: center;
 }
 
@@ -119,8 +118,12 @@ header .scroll-down span.glyphicon-chevron-down {
   align-items: center;
 }
 
+.technology .box-logo [class*="box"]:hover {
+  transform: scale(1.2);
+}
+
 .technology .box-logo [class*="box"] > img {
-  width: 70px;
+  width: 100px;
   height: auto;
 }
 
