@@ -4,8 +4,7 @@
 
 body {
     margin: 0;
-    padding: 0;
-    font-family: $main-font, sans-serif;    
+    padding: 0;  
 }
 
 header {
@@ -43,8 +42,7 @@ header {
         color: rgba(255, 255, 255, 0.8);
         font-size: 40px;      
         }     
-    }
-    
+    }    
 
 }
 /*Animation for scroll-down icon - header section*/
@@ -61,6 +59,17 @@ header {
     100% {
         transform: translateY(600%);
         opacity: 0;
+    }
+}
+
+.about {    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2 {
+        @include heading-section;        
+    }
+    p {
+        @include text-section;
     }
 }
        
