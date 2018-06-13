@@ -74,12 +74,54 @@ header .scroll-down span.glyphicon-chevron-down {
   font-weight: 800;
   font-size: 45px;
   color: #8c7e7e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  color: #8c7e7e;
 }
 
 .about p {
   color: #8c7e7e;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+}
+
+.technology {
+  background-color: #273c75;
+  text-align: center;
+}
+
+.technology h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  color: #8c7e7e;
+}
+
+.technology .box-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.technology .box-logo [class*="box"] {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technology .box-logo [class*="box"] > img {
+  width: 70px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

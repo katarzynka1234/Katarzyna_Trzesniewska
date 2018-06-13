@@ -66,11 +66,44 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
     h2 {
-        @include heading-section;        
+        @include heading-section;@include heading-section;        
     }
     p {
         @include text-section;
     }
+}
+
+.technology {
+    background-color: #273c75;
+    text-align: center;
+    h2 {
+        @include heading-section;
+    }
+    .box-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+        [class*="box"] {
+            width: 150px;
+            height: 150px;            
+            border-radius: 50%;
+            border:none;
+            background-color: $white;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            > img {
+                width: 70px;
+                height: auto; 
+            }
+        }
+    }
+    
 }
        
       
