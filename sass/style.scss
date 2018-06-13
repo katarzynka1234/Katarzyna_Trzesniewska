@@ -1,4 +1,6 @@
 @import 'global_variables';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
 
 body {
     margin: 0;
@@ -7,42 +9,62 @@ body {
 }
 
 header {
-    .navbar-inverse {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
     height: 100vh;
-    background-image: url(../images/header/aromatherapy-aromatic-beautiful-flowers-286755.jpg);
+    background-image: url(../images/header/bloom-blossom-flora-40797.jpg);
     background-attachment: fixed;
 	background-position: left top;
     background-size: cover;
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        .slogan {            
-            color: $white;
-            background: rgba(153, 134, 134, 0.8);
-            text-align: center;
-            width:600px;
-            height: 300px;
-            border: 7px solid $white;
-            font-size: 20px;
-            h1 {
-                margin-top: 50px; 
-                line-height: 1.2;          
-                span {
-                    font-family: $main-font;
-                    font-weight: 300;              
-                    font-size: 40px;
-                    text-decoration: underline;
-                }
-            }
+    padding-top: 30vh;
+    position: relative;
+    .navbar-inverse {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    main {  
+        padding: 20px 15px;
+        background-color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        h1 {
+            text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            letter-spacing: 1;
+            color: #273c75;            
+        }
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            color: #192a56;
         }
     }
+    .scroll-down {
+        position: absolute;       
+        left: 49%;
+        animation: scroll-down-animate 2s linear infinite;  
+        span.glyphicon-chevron-down {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 40px;      
+        }     
+    }
+    
 
 }
+/*Animation for scroll-down icon - header section*/
+@keyframes scroll-down-animate {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
 
+    }
+    80% {
+        transform: translateY(300%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(600%);
+        opacity: 0;
+    }
+}
+       
+      
 
 
 
