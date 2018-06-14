@@ -1,6 +1,7 @@
 
 $white: #fff;
-$text-gray: #8c7e7e;
+$text-color:  #192a56;
+$heading-color: #273c75;
 
 
 
@@ -8,11 +9,11 @@ $text-gray: #8c7e7e;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 45px;
-    color: $text-gray;
+    color: $heading-color;
 }
 
 @mixin text-section {
-    color: $text-gray;
+    color: $text-color;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }

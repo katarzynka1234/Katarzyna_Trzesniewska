@@ -63,13 +63,33 @@ header {
 }
 
 .about {    
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 50px;
-    h2 {
-        @include heading-section;@include heading-section;        
-    }
-    p {
-        @include text-section;
+    .about-box {
+        margin: 0 auto;
+        width: 90%;
+        border: 3px solid $text-color;
+        text-align: center; 
+        padding: 0 60px 30px 60px;      
+        .picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin: 10px auto;
+            overflow: hidden;
+        }
+        h2 {
+            @include heading-section; 
+            background-color: $white;
+            display: inline-block;
+            transform: translateY(-50px);
+            padding-left: 10px;
+            padding-right: 10px;       
+        }
+        p {
+            @include text-section;
+        }
     }
 }
 
