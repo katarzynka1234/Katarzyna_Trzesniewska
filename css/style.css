@@ -127,4 +127,55 @@ header .scroll-down span.glyphicon-chevron-down {
   height: auto;
 }
 
+.projects {
+  padding: 10px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  color: #8c7e7e;
+}
+
+.projects .box-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects .box-project [class*="project"] {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: auto;
+}
+
+.projects .box-project [class*="project"] img {
+  width: 100%;
+  height: auto;
+  border-bottom: 0.5px solid gray;
+}
+
+.projects .box-project [class*="project"] .details {
+  display: none;
+}
+
+.projects .box-project [class*="project"] .description {
+  background-color: #DBE2F1;
+  padding-top: 20px;
+}
+
+.projects .box-project [class*="project"] .description h4 {
+  margin: 0;
+}
+
+.temoprary {
+  height: 500px;
+}
+
 /*# sourceMappingURL=style.css.map */
