@@ -29,5 +29,8 @@ $heading-color: #273c75;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 10px;
+    &:hover {
+        transform: scale(0.9);
+    }
 
 }

@@ -93,6 +93,9 @@ header {
                 @include text-section;
             }
         }
+        .not-visible {
+            display: none;
+        }
         button {
             @include btn-big;
         }
@@ -149,8 +152,7 @@ header {
             }
             > i {
                 font-size: 100px; 
-                color: $text-color;
-                
+                color: $text-color;                
             }
         }
        
@@ -160,7 +162,7 @@ header {
 }
 
 .projects {
-    padding: 10px;
+    padding-top: 50px;
     text-align: center;
     h2{
         @include heading-section; 
@@ -172,26 +174,40 @@ header {
         flex-wrap: wrap;    
         [class*="project"] {
             width: 500px;
-            height: 500px;
+            height: 361px;        
             margin: 10px;                       
             box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.4);
             position: relative;
             overflow: auto;
+            overflow: hidden;
             img {
-                width: 100%;
+                width: 90%;                
                 height: auto;
-                border-bottom: 0.5px solid gray;
+                margin-top: 5%;
+                border-bottom: 1px solid gray;
             }
-            .details {
-                display: none;
+            button {
+                @include btn-big;
+                margin-bottom: 20px;
             }
-            .description {
-                background-color: #DBE2F1;
+            .description {                
                 padding-top: 20px;
                 h4 {
                     margin: 0;
-
+                    font-family: 'Open Sans' sans-serif;
+                    color: $text-color;
+                    margin-bottom: 10px;                  
                 }
+                i {
+                    font-size: 50px;
+                    color: $heading-color;
+                }
+                
+            }
+            a .icon-link {
+                width: 100px;
+                font-size: 30px;
+                margin: 20px 40px;
             }
 
         }

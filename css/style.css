@@ -108,6 +108,10 @@ header .scroll-down span.glyphicon-chevron-down {
   font-size: 16px;
 }
 
+.about .about-box .not-visible {
+  display: none;
+}
+
 .about .about-box button {
   width: 200px;
   height: 50px;
@@ -119,6 +123,10 @@ header .scroll-down span.glyphicon-chevron-down {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 10px;
+}
+
+.about .about-box button:hover {
+  transform: scale(0.9);
 }
 
 .technology {
@@ -191,7 +199,7 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .projects {
-  padding: 10px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -211,30 +219,59 @@ header .scroll-down span.glyphicon-chevron-down {
 
 .projects .box-project [class*="project"] {
   width: 500px;
-  height: 500px;
+  height: 361px;
   margin: 10px;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: auto;
+  overflow: hidden;
 }
 
 .projects .box-project [class*="project"] img {
-  width: 100%;
+  width: 90%;
   height: auto;
-  border-bottom: 0.5px solid gray;
+  margin-top: 5%;
+  border-bottom: 1px solid gray;
 }
 
-.projects .box-project [class*="project"] .details {
-  display: none;
+.projects .box-project [class*="project"] button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #192a56;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.projects .box-project [class*="project"] button:hover {
+  transform: scale(0.9);
 }
 
 .projects .box-project [class*="project"] .description {
-  background-color: #DBE2F1;
   padding-top: 20px;
 }
 
 .projects .box-project [class*="project"] .description h4 {
   margin: 0;
+  font-family: 'Open Sans' sans-serif;
+  color: #192a56;
+  margin-bottom: 10px;
+}
+
+.projects .box-project [class*="project"] .description i {
+  font-size: 50px;
+  color: #273c75;
+}
+
+.projects .box-project [class*="project"] a .icon-link {
+  width: 100px;
+  font-size: 30px;
+  margin: 20px 40px;
 }
 
 .temoprary {
