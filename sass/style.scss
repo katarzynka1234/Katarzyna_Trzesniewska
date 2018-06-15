@@ -95,36 +95,61 @@ header {
 
 .technology {
     text-align: center;
+    background-color:#CFDCF2; 
+    padding-top: 30px;
+    padding-bottom: 30px;
     h2 {
         @include heading-section;
     }
-    .box-logo {
+    .box-logo-1 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        padding-top: 30px;
+        padding-top: 50px;
         padding-bottom: 30px;        
-        [class*="box"] {
-            width: 150px;
-            height: 150px;            
-            border-radius: 50%;
-            border:none;
-            background-color: $white;
-            margin-bottom: 10px;
+        [class*="box"] {       
             display: flex;
             justify-content: center;
             align-items: center;
             &:hover {
                 transform: scale(1.2);
             }
-            > img {
-                width: 100px;
-                height: auto; 
+            > i {
+                font-size: 100px; 
+                color: $text-color;
             }
         }
     }
-
+    h3 {
+        color: $text-color;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 20px;
+    }
+    .box-logo-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 30px; 
+        [class*="box"] {       
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 30px;
+            &:hover {
+                transform: scale(1.2);
+            }
+            > i {
+                font-size: 100px; 
+                color: $text-color;
+                
+            }
+        }
+       
+    }
+    
     
 }
 

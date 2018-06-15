@@ -106,6 +106,9 @@ header .scroll-down span.glyphicon-chevron-down {
 
 .technology {
   text-align: center;
+  background-color: #CFDCF2;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .technology h2 {
@@ -115,34 +118,59 @@ header .scroll-down span.glyphicon-chevron-down {
   color: #273c75;
 }
 
-.technology .box-logo {
+.technology .box-logo-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
-.technology .box-logo [class*="box"] {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: none;
-  background-color: #fff;
-  margin-bottom: 10px;
+.technology .box-logo-1 [class*="box"] {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.technology .box-logo [class*="box"]:hover {
+.technology .box-logo-1 [class*="box"]:hover {
   transform: scale(1.2);
 }
 
-.technology .box-logo [class*="box"] > img {
-  width: 100px;
-  height: auto;
+.technology .box-logo-1 [class*="box"] > i {
+  font-size: 100px;
+  color: #192a56;
+}
+
+.technology h3 {
+  color: #192a56;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+}
+
+.technology .box-logo-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.technology .box-logo-2 [class*="box"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.technology .box-logo-2 [class*="box"]:hover {
+  transform: scale(1.2);
+}
+
+.technology .box-logo-2 [class*="box"] > i {
+  font-size: 100px;
+  color: #192a56;
 }
 
 .projects {
