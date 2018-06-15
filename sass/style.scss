@@ -70,14 +70,7 @@ header {
         width: 90%;
         border: 3px solid $text-color;
         text-align: center; 
-        padding: 0 60px 30px 60px;      
-        .picture {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;          
-            margin: 10px auto;
-            overflow: hidden;
-        }
+        padding: 0 60px 30px 60px;
         h2 {
             @include heading-section; 
             background-color: $white;
@@ -85,9 +78,23 @@ header {
             transform: translateY(-50px);
             padding-left: 10px;
             padding-right: 10px;       
+        }      
+        .picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;          
+            margin: -30px  auto 10px auto;
+            overflow: hidden;
         }
-        p {
-            @include text-section;
+        .about-text {
+            max-width: 750px;
+            margin: 0 auto;        
+            p {
+                @include text-section;
+            }
+        }
+        button {
+            @include btn-big;
         }
     }
 }
