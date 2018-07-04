@@ -121,6 +121,8 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 100px;
+            margin: 15npx;
             &:hover {
                 transform: scale(1.2);
             }
@@ -199,6 +201,11 @@ header {
                     color: $text-color;
                     margin-bottom: 10px;                  
                 }
+                p {
+                    padding: 0 20px;
+                    color: $text-color;
+                    font-family: 'Open Sans', sans-serif;
+                }
                 i {
                     font-size: 30px;
                     color: $heading-color;
@@ -268,9 +275,7 @@ footer {
     }
 }
 
-.temoprary {
-    height: 500px;
-}
+
        
       
 

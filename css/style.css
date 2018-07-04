@@ -126,7 +126,7 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .about .about-box button:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .technology {
@@ -156,6 +156,8 @@ header .scroll-down span.glyphicon-chevron-down {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100px;
+  margin: 15npx;
 }
 
 .technology .box-logo-1 [class*="box"]:hover {
@@ -248,7 +250,7 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .projects .box-project [class*="project"] button:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .projects .box-project [class*="project"] .description {
@@ -260,6 +262,12 @@ header .scroll-down span.glyphicon-chevron-down {
   font-family: 'Open Sans' sans-serif;
   color: #192a56;
   margin-bottom: 10px;
+}
+
+.projects .box-project [class*="project"] .description p {
+  padding: 0 20px;
+  color: #192a56;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .projects .box-project [class*="project"] .description i {
@@ -333,10 +341,6 @@ footer {
 
 footer p {
   margin: 0;
-}
-
-.temoprary {
-  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
