@@ -277,6 +277,64 @@ header .scroll-down span.glyphicon-chevron-down {
   height: auto;
 }
 
+.contact {
+  background-color: #192a56;
+  color: #fff;
+  height: 400px;
+}
+
+.contact .contact-box {
+  margin: 80px auto;
+  width: 90%;
+  border: 3px solid #fff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.contact .contact-box h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  color: #273c75;
+  color: #fff;
+  background-color: #192a56;
+  display: inline-block;
+  transform: translateY(-50px);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact .contact-box p {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 25px;
+}
+
+.contact .contact-box a {
+  color: #fff;
+}
+
+.contact .contact-box a button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.contact .contact-box a button .fa {
+  font-size: 25px;
+}
+
+footer {
+  background-color: #26292D;
+  color: #868C95;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
 .temoprary {
   height: 500px;
 }
