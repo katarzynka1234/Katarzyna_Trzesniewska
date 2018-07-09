@@ -349,6 +349,12 @@ footer p {
 }
 
 @media (max-width: 767px) {
+  .about .about-box {
+    padding: 0 20px 30px 20px;
+  }
+  .about .about-box p {
+    text-align: justify;
+  }
   footer {
     font-size: smaller;
   }
