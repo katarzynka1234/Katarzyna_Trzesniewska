@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 header {
   height: 100vh;
   background-image: url(../images/header/bloom-blossom-flora-40797.jpg);
@@ -157,7 +161,7 @@ header .scroll-down span.glyphicon-chevron-down {
   justify-content: center;
   align-items: center;
   width: 100px;
-  margin: 15npx;
+  margin: 15px;
 }
 
 .technology .box-logo-1 [class*="box"]:hover {
@@ -288,7 +292,6 @@ header .scroll-down span.glyphicon-chevron-down {
 .contact {
   background-color: #192a56;
   color: #fff;
-  height: 400px;
 }
 
 .contact .contact-box {
@@ -310,6 +313,8 @@ header .scroll-down span.glyphicon-chevron-down {
   transform: translateY(-50px);
   padding-left: 10px;
   padding-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .contact .contact-box p {
