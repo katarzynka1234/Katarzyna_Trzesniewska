@@ -281,6 +281,15 @@ footer {
 }
 
 
+@media (max-width: 767px) {
+   footer {   
+     font-size: smaller;
+     p {
+         display: block;
+         margin:10px 40px;
+     }  
+   } 
+}
        
       
 

@@ -348,4 +348,14 @@ footer p {
   margin: 0;
 }
 
+@media (max-width: 767px) {
+  footer {
+    font-size: smaller;
+  }
+  footer p {
+    display: block;
+    margin: 10px 40px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
