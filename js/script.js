@@ -1,13 +1,13 @@
 
 
-// $(document).ready(function () {   
-   //====== KOD DZIAŁA TYLKO NA PIERWSZY PROJEKT ===========// 
+$(document).ready(function () {   
 
-//         $('#more-details').click(function(){
-//             $('#more-details').parent().addClass("more-description")
-//     })
-    
+    var btnReadMore = $('#read_more');
+    var moreAboutMe = $('.not-visible'); 
 
 
+    btnReadMore.click(function(){
+        moreAboutMe.toggle('slow');
+    });     
 
-// });
+});
