@@ -43,7 +43,7 @@ header main h2 {
 
 header .scroll-down {
   position: absolute;
-  left: 49%;
+  left: 47vw;
   animation: scroll-down-animate 2s linear infinite;
 }
 
