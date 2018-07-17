@@ -75,6 +75,7 @@ header .scroll-down span.glyphicon-chevron-down {
 
 .about .about-box {
   margin: 0 auto;
+  max-width: 1000px;
   width: 90%;
   border: 3px solid #192a56;
   text-align: center;
@@ -350,10 +351,11 @@ footer p {
 
 @media (max-width: 767px) {
   .about .about-box {
-    padding: 0 20px 30px 20px;
+    width: 95%;
+    padding: 0 10px 30px 10px;
   }
-  .about .about-box p {
-    text-align: justify;
+  .about .about-box .about-text p {
+    font-size: 14px;
   }
   footer {
     font-size: smaller;

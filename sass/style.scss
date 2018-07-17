@@ -71,6 +71,7 @@ header {
     padding-bottom: 50px;
     .about-box {
         margin: 0 auto;
+        max-width: 1000px;
         width: 90%;
         border: 3px solid $text-color;
         text-align: center; 
@@ -283,10 +284,13 @@ footer {
 
 @media (max-width: 767px) {
     .about {
-        .about-box {
-            padding: 0 20px 30px 20px;
-            p {
-            text-align: justify;
+        .about-box {        
+            width: 95%;
+            padding: 0 10px 30px 10px;
+            .about-text{            
+                p {
+                    font-size: 14px;
+                }
             }
         }
     }
