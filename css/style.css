@@ -136,7 +136,8 @@ header .scroll-down span.glyphicon-chevron-down {
 
 .technology {
   text-align: center;
-  background-color: #CFDCF2;
+  background-image: url(../images/technology/background1.png);
+  background-attachment: fixed;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -163,10 +164,16 @@ header .scroll-down span.glyphicon-chevron-down {
   align-items: center;
   width: 100px;
   margin: 15px;
+  opacity: 0;
+  transition-duration: 1s;
 }
 
 .technology .box-logo-1 [class*="box"]:hover {
   transform: scale(1.2);
+}
+
+.technology .box-logo-1 [class*="box"] .fadeInDownBig {
+  opacity: 1;
 }
 
 .technology .box-logo-1 [class*="box"] > i {

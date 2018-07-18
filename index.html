@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Katarzyna Trzesniewska</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -47,7 +48,7 @@
         <main>
             <div class="slogan">
                 <h1>Katarzyna Trześniewska</h1>
-                <h2>Front-End Developer</h2>
+                <h2 class="animated pulse">Front-end Developer</h2>
             </div>
         </main>
         <div class="scroll-down">
@@ -65,7 +66,7 @@
                 <div class="about-text">
                     <p>Nazywam się
                         <strong>Katarzyna&nbsp;Trześniewska</strong>. Z wykształcenia ekonomistka, z zamiłowania
-                        <strong>Front-&nbsp;End&nbsp;Developer</strong>. Zafascynowana możliwościami
+                        <strong>Front-end&nbsp;Developer</strong>. Zafascynowana możliwościami
                         <strong>wizualnymi</strong> aktualnych
                         <strong>technologii webowych</strong>. Amatorka biegów narciarskich oraz miłośniczka
                         <strong>gier planszowych</strong>.</p>
@@ -123,35 +124,35 @@
 
     <section id="technology" class="technology">
         <h2>Stosowane technologie</h2>
-        <div class="box-logo-1">
-            <div class="box1">
+        <div id="usedTech" class="box-logo-1">
+            <div id="icon" class="box1 animated">
                 <i class="devicon-html5-plain-wordmark"></i>
             </div>
-            <div class="box2">
+            <div id="icon" class="box2 animated">
                 <i class="devicon-css3-plain-wordmark"></i>
             </div>
-            <div class="box3">
+            <div id="icon" class="box3 animated">
                 <i class="devicon-javascript-plain"></i>
             </div>
-            <div class="box4">
+            <div id="icon" class="box4 animated">
                 <i class="devicon-jquery-plain-wordmark"></i>
             </div>
-            <div class="box5">
+            <div id="icon" class="box5 animated">
                 <i class="devicon-bootstrap-plain"></i>
             </div>
-            <div class="box6">
+            <div id="icon" class="box6 animated">
                 <i class="devicon-sass-original"></i>
             </div>
-            <div class="box7">
+            <div id="icon" class="box7 animated">
                 <i class="devicon-git-plain-wordmark"></i>
             </div>
         </div>
         <h3>Aktualnie uczę się i wprowadzam do projektów:</h3>
-        <div class="box-logo-2">
-            <div class="box8">
+        <div id="lernTech" class="box-logo-2">
+            <div id="icon2" class="box8 animated">
                 <i class="devicon-angularjs-plain"></i>
             </div>
-            <div class="box9">
+            <div id="icon2" class="box9 animated">
                 <i class="devicon-nodejs-plain"></i>
             </div>
         </div>
@@ -339,6 +340,9 @@
 
     <!-- Bootstrap -->
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <!-- Scroll Magic plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>    
 
     <!-- ======= JavaScript ====== -->
     <script type="text/javascript" src="js/script.js"></script>

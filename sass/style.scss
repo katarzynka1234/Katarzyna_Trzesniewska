@@ -11,6 +11,8 @@ a:hover {
     text-decoration: none;
 }
 
+
+
 header {
     height: 100vh;
     background-image: url(../images/header/bloom-blossom-flora-40797.jpg);
@@ -109,7 +111,8 @@ header {
 
 .technology {
     text-align: center;
-    background-color:#CFDCF2; 
+    background-image: url(../images/technology/background1.png); 
+    background-attachment: fixed;
     padding-top: 30px;
     padding-bottom: 30px;
     h2 {
@@ -128,9 +131,14 @@ header {
             align-items: center;
             width: 100px;
             margin: 15px;
+            opacity: 0;
+            transition-duration: 1s;
             &:hover {
                 transform: scale(1.2);
             }
+            .fadeInDownBig {
+                opacity: 1;
+            }           
             > i {
                 font-size: 100px; 
                 color: $text-color;
