@@ -2,15 +2,26 @@
 
 $(document).ready(function () {
     
-    // == Read More button - toggle effect ===//
+    // == Read More/Less button - toggle effect ===//
     var btnReadMore = $('#read_more');
+    var btnReadLess = $('#read_less');
     var moreAboutMe = $('.not-visible');
 
+    btnReadLess.hide();
+
     btnReadMore.click(function(){
-        moreAboutMe.toggle('slow');
-    }); 
+        moreAboutMe.show('slow');
+        btnReadLess.show(); 
+        btnReadMore.hide();       
+    });
 
+    btnReadLess.click(function(){
+        moreAboutMe.hide('slow');
+        btnReadLess.hide();
+        btnReadMore.show();
+    });     
 
+    
     // === TECHNOLOGIES SECTION - iconS animation ===//
     
     // *** SCROLL MAGIC plugin ***//
