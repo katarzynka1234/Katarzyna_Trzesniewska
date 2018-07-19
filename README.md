@@ -13,4 +13,4 @@ Used web technologies:
 
 > jQuery
 
-> plugins: Animate.css Magic Scroll
+> plugins: Animate.css, Magic Scroll
