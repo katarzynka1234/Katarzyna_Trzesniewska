@@ -150,18 +150,25 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .technology .box-logo-1 {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .technology .box-logo-1 [class*="box"] {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   width: 100px;
   margin: 15px;
   opacity: 0;
@@ -188,18 +195,25 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .technology .box-logo-2 {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .technology .box-logo-2 [class*="box"] {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   margin: 0 30px;
 }
 
@@ -225,10 +239,14 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .projects .box-project {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .projects .box-project [class*="project"] {
@@ -372,5 +390,4 @@ footer p {
     margin: 10px 40px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
