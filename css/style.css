@@ -22,6 +22,22 @@ header .navbar-inverse {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+header .change-language {
+  position: fixed;
+  top: 12px;
+  right: 60px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  z-index: 10000;
+}
+
 header main {
   padding: 20px 15px;
   background-color: rgba(255, 255, 255, 0.6);
