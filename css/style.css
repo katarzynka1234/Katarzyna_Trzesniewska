@@ -22,6 +22,10 @@ header .navbar-inverse {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+header .navbar-inverse .navbar-collapse.collapse.navbar-right {
+  margin-right: 100px;
+}
+
 header .change-language {
   position: fixed;
   display: block;

@@ -22,7 +22,10 @@ header {
     padding-top: 30vh;
     position: relative;
     .navbar-inverse {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.8);    
+        .navbar-collapse.collapse.navbar-right {
+            margin-right: 100px;
+        }
     }
     .change-language {
         position: fixed;        
