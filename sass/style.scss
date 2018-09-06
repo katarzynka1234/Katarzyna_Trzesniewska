@@ -25,19 +25,27 @@ header {
         background-color: rgba(0, 0, 0, 0.8);
     }
     .change-language {
-        position: fixed;
-        top: 12px;
-        right: 60px;
+        position: fixed;        
         display: block;
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        color: $white;
-        font-weight: bold;
+        color: $white;       
         text-align: center;
         text-decoration: none;
         padding-top: 4px;
         z-index: 10000;
+    }
+    .pl {
+        top: 12px;
+        right: 30px;
+    }
+    .en {
+        top: 12px;
+        right: 60px;
+    }
+    .active {
+        font-weight: bold;
     }
     main {  
         padding: 20px 15px;
@@ -305,8 +313,16 @@ footer {
     }
 }
 
-
+// RWD //
 @media (max-width: 767px) {
+    header {    
+        .pl {
+            right: 60px;
+        }
+        .en {
+            right: 90px;
+        }
+    }
     .about {
         .about-box {        
             width: 95%;

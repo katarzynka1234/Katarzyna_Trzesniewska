@@ -24,18 +24,29 @@ header .navbar-inverse {
 
 header .change-language {
   position: fixed;
-  top: 12px;
-  right: 60px;
   display: block;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   color: #fff;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
   padding-top: 4px;
   z-index: 10000;
+}
+
+header .pl {
+  top: 12px;
+  right: 30px;
+}
+
+header .en {
+  top: 12px;
+  right: 60px;
+}
+
+header .active {
+  font-weight: bold;
 }
 
 header main {
@@ -166,25 +177,18 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .technology .box-logo-1 {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .technology .box-logo-1 [class*="box"] {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   margin: 15px;
   opacity: 0;
@@ -211,25 +215,18 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .technology .box-logo-2 {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .technology .box-logo-2 [class*="box"] {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 0 30px;
 }
 
@@ -255,14 +252,10 @@ header .scroll-down span.glyphicon-chevron-down {
 }
 
 .projects .box-project {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .projects .box-project [class*="project"] {
@@ -392,6 +385,12 @@ footer p {
 }
 
 @media (max-width: 767px) {
+  header .pl {
+    right: 60px;
+  }
+  header .en {
+    right: 90px;
+  }
   .about .about-box {
     width: 95%;
     padding: 0 10px 30px 10px;
@@ -407,4 +406,5 @@ footer p {
     margin: 10px 40px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
