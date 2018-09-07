@@ -33,13 +33,13 @@ $(document).ready(function () {
     var sceneOne = new ScrollMagic.Scene({
         triggerElement: '#technology'      
     })         
-    .setClassToggle('#icon', animatedEffect)
+    .setClassToggle('.icon', animatedEffect)
     .addTo(controller); 
     
     var sceneTwo = new ScrollMagic.Scene({
         triggerElement: '#technology'
     })
-    .setClassToggle('#icon2', animatedEffect)
+    .setClassToggle('.icon2', animatedEffect)
     .addTo(controller);
 
     

@@ -296,24 +296,6 @@ header .scroll-down span.glyphicon-chevron-down {
   border-bottom: 1px solid gray;
 }
 
-.projects .box-project [class*="project"] button {
-  width: 200px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: #192a56;
-  border: none;
-  outline: none;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.projects .box-project [class*="project"] button:hover {
-  transform: scale(1.1);
-}
-
 .projects .box-project [class*="project"] .description {
   padding-top: 20px;
 }
@@ -336,10 +318,30 @@ header .scroll-down span.glyphicon-chevron-down {
   color: #273c75;
 }
 
-.projects .box-project [class*="project"] a .icon-link {
+.projects .box-project [class*="project"] .icon-link {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #192a56;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
   width: 100px;
-  font-size: 20px;
   margin: 20px 40px;
+  font-size: 20px;
+}
+
+.projects .box-project [class*="project"] .icon-link:hover {
+  transform: scale(1.1);
+}
+
+.projects .box-project [class*="project"] .icon-link a {
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .projects .box-project .more-description {

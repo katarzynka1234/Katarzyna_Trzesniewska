@@ -226,12 +226,7 @@ header {
                 height: auto;
                 margin-top: 5%;
                 border-bottom: 1px solid gray;
-            }
-            button {
-                @include btn-big;
-                margin-bottom: 20px;
-                
-            }
+            }           
             .description {                
                 padding-top: 20px;
                 h4 {
@@ -250,11 +245,18 @@ header {
                     color: $heading-color;
                 }                
             }
-            a .icon-link {
+            .icon-link {
+                @include btn-big;
                 width: 100px;
+                margin: 20px 40px;                           
                 font-size: 20px;
-                margin: 20px 40px;
+                a {
+                    width: 100px;
+                    color: $white;
+                    text-decoration: none;
+                }        
             }
+           
         }
         .more-description {
             height: auto;
